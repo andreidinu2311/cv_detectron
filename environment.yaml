@@ -10,6 +10,7 @@ dependencies:
   - pytorch-mutex=1.0=cpu
   - torchaudio=2.0.2=py38_cpu
   - torchvision=0.15.2=py38_cpu
+  - pip
   - pip:
       - absl-py==1.4.0
       - antlr4-python3-runtime==4.9.3
@@ -101,7 +102,7 @@ dependencies:
       - mkl_fft==1.3.6
       - requests==2.31.0
       - filelock==3.9.0
-      - python==3.8.17
+      - python==3.9.2
       - vc==14.2
       - pysocks==1.7.1
       - brotlipy==0.7.0
