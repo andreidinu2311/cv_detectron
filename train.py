@@ -31,7 +31,7 @@ if __name__ == '__main__':
     cfg.SOLVER.IMS_PER_BATCH = 2
     cfg.SOLVER.BASE_LR = 0.00025
     cfg.SOLVER.MAX_ITER = 1000
-    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 16
+    cfg.MODEL.ROI_HEADS.NUM_CLASSES = 10
     cfg.MODEL.DEVICE = "cpu" #cuda
     
     # Define your custom class names
